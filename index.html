@@ -2,35 +2,356 @@
 <html lang="ru">
 
 <head>
-    <title>Позиционирование</title>
-    <meta>
+    <title>Bussines Theme</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#9f00a7">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
-    <div class="content-top">
-        <p>TRAVEL</p>
-        <p>Donec sed odio dui. Cras mattis consectetur purus <br> sit amet fermentum. </p>
-    </div>
-    <div class="img">
-        <img src="../../img/light-man_copy.png" alt="man in the field">
-    </div>
-    <div class="content-middle">
-        <p>Donec aredsed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Morbi leo risus, porta
-            ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla.</p>
-        <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean eu leo quam.
-            Pellentesque ornare sem lacinia quam venenatis vestibulum. </p>
-    </div>
-    <div class="content-bottom top">
-        <ul>
-            <li>Put on this page information about your product</li>
-            <li>A detailed description of your product</li>
-            <li>Tell us about the advantages and merit1s</li>
-            <li><span>Associate the page with the payment system</span></li>
-        </ul>
-    </div>
-    <a class="link" href="#"></a>
-    <div class="margin">&</div>
+    <main>
+        <div class="wrapper">
+            <header class="header">
+                <div class="header__container container">
+                    <nav class="header__nav">
+                        <div class="header__row">
+                            <div class="header__logo"><img src="img/logoheader.png" alt="logo"></div>
+                            <div class="header__menu">
+                                <a href="#" class="header__item">Home</a>
+                                <a href="#" class="header__item">Service</a>
+                                <a href="#" class="header__item">About us</a>
+                                <a href="#" class="header__item">Pricing Table</a>
+                                <a href="#" class="header__item">How it work</a>
+                                <a href="#" class="header__item">Happy Clients</a>
+                                <a href="#" class="header__item">Contact us</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <section class="home">
+                <div class="home__test">
+                    <div class="home__container container">
+                        <div class="home__text">
+                            <div class="home__title">Boost up your Local business</div>
+                            <div class="home__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum typesetting</div>
+                        </div>
+                        <form action="#" enctype="multipart/form-data" class="home__form">
+                            <input type="text" placeholder="Full Name" class="home__name home__input">
+                            <input type="email" placeholder="Email Address" class="home__email home__input">
+                            <input type="tel" placeholder="Phone Number" class="home__phone home__input">
+                            <button type="submit" class="home__button">Request a quote</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="home__media">
+                    <div class="home__img"><img src="/img/laptop.png" alt="laptop"></div>
+                    <div class="home__sliders">
+
+                        <label><input type="radio" name="home" checked class="home__item"> <span
+                                class="home__fake"></span></label>
+                        <label>
+                            <input type="radio" name="home" class="home__item"><span class="home__fake"></span>
+                        </label>
+                        <label>
+                            <input type="radio" name="home" class="home__item"><span class="home__fake"></span>
+                        </label>
+
+
+                        <!-- <div class="home__item"></div>
+                        <div class="home__item"></div>
+                        <div class="home__item"></div> -->
+                    </div>
+                </div>
+
+
+            </section>
+            <section class="services">
+                <div class="services__container container">
+                    <div class="services__text">
+                        <div class="services__title title">Our Services</div>
+                        <div class="services__subtitle subtitle">Lorem Ipsum is simply dummy Business industry.</div>
+                    </div>
+                    <div class="services__row">
+                        <div class="services__column">
+                            <div class="services__item">
+                                <div class="services__img"><img src="img/services/services__1.png" alt=""></div>
+                                <div class="services__text">
+                                    <div class="services__minititle">Font-Awesome Icons</div>
+                                    <div class="services__minitext">Lorem Ipsum is simply dummy text of the printing and
+                                        typesetting ind
+                                        ustry. Lorem Ipsum has been the industry's standard dummy text ever
+                                        since the 1500s, when an unknown printer.</div>
+                                </div>
+                            </div>
+                            <div class="services__item">
+                                <div class="services__img"><img src="img/services/services__2.png" alt=""></div>
+                                <div class="services__text">
+                                    <div class="services__minititle">Working Contact form</div>
+                                    <div class="services__minitext">Many desktop publishing packages and web page
+                                        editors now use Lorem Ipsum as their default model text, and a search for 'lorem
+                                        ipsum' will un
+                                        cover many web sites still in their infancy</div>
+                                </div>
+                            </div>
+                            <div class="services__item">
+                                <div class="services__img"><img src="img/services/services__3.png" alt=""></div>
+                                <div class="services__text">
+                                    <div class="services__minititle">Friendly Code</div>
+                                    <div class="services__minitext">Finibus Bonorum et Malorum" by Cicero are also
+                                        reproduced in their
+                                        exact original form, accompanied by English versions from the 1914 translation
+                                        by H. Rackham</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services__column">
+                            <div class="services__item">
+                                <div class="services__img"><img src="img/services/services__4.png" alt=""></div>
+                                <div class="services__text">
+                                    <div class="services__minititle">Fully Responsive Design</div>
+                                    <div class="services__minitext">Many desktop publishing packages and web page
+                                        editors now use Lorem Ipsum as their default model text, and a search for 'lorem
+                                        ipsum' will uncover many web sites still in their infancy</div>
+                                </div>
+                            </div>
+                            <div class="services__item">
+                                <div class="services__img"><img src="img/services/services__5.png" alt=""></div>
+                                <div class="services__text">
+                                    <div class="services__minititle">Retina Ready icons here</div>
+                                    <div class="services__minitext">There are many variations of passages of Lorem Ipsum
+                                        available, but the majority have suffered alteration in some form, by injected
+                                        humour
+                                        or randomised words which don't look even slightly believable.
+                                        If you are going to use a passage of Lorem Ipsum, you need to be sure there
+                                        isn't anything</div>
+                                </div>
+                            </div>
+                            <div class="services__item">
+                                <div class="services__img"><img src="img/services/services__6.png" alt=""></div>
+                                <div class="services__text">
+                                    <div class="services__minititle">Flat trendy landing page Design</div>
+                                    <div class="services__minitext">Lorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                                        ever since
+                                        the 1500s, when an unknown printer.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about">
+                <div class="about__container">
+                    <!-- <div class="about__img"> -->
+                    <img class="about__img" src="img/about.png" alt="background image">
+                    <!-- </div> -->
+                    <div class="about__text">
+                        <div class="about__title">ABout us</div>
+                        <div class="about__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+                            has survived not only five centuries, but also the leap into electronic typesetting,
+                            remaining essentially unchanged. It was popularised in the ore recently with desktop
+                            publishing software like Aldus PageMaker including versions of Lorem Ipsum</div>
+                        <a href="#" class="about__button">Read more</a>
+                    </div>
+                </div>
+            </section>
+            <section class="price">
+                <div class="price__container container">
+                    <div class="price__head">
+                        <div class="title price__title">Choos your price</div>
+                        <div class="subtitle price__subtitle">Lorem Ipsum is simply dummy text of the printing
+                            typesetting.</div>
+                    </div>
+                    <div class="price__row">
+                        <div class="price__column">
+                            <div class="price__plan">Basic plan</div>
+                            <div class="price__price">22</div>
+                            <div class="price__item price__first">per month</div>
+                            <div class="price__item">1 Account</div>
+                            <div class="price__item">8 hour support</div>
+                            <div class="price__item">Custom Cloud Services</div>
+                            <a href="#" class="price__button">Get Started</a>
+                        </div>
+                        <div class="price__column price__column-blue">
+                            <div class="price__plan price__plan-blue">Premium plan</div>
+                            <div class="price__price price__price-blue">42</div>
+                            <div class="price__item price__item-blue price__first"><span>per month</span></div>
+                            <div class="price__item price__item-blue">2 Account</div>
+                            <div class="price__item price__item-blue">100MB Storage</div>
+                            <div class="price__item price__item-blue">Custom Cloud Services</div>
+                            <a href="#" class="price__button">Get Started</a>
+                        </div>
+                        <div class="price__column">
+                            <div class="price__plan">Gold plan</div>
+                            <div class="price__price">62</div>
+                            <div class="price__item price__first">per month</div>
+                            <div class="price__item">8 Accounts</div>
+                            <div class="price__item">24 hour support</div>
+                            <div class="price__item">Custom Cloud Services</div>
+                            <a href="#" class="price__button">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="how">
+                <div class="how__container container">
+                    <div class="how__text">
+                        <div class="how__title title">How it works</div>
+                        <div class="how__subtitle subtitle">Lorem Ipsum is simply dummy Business industry</div>
+                    </div>
+                    <div class="how__row">
+                        <div class="how__column">
+                            <div class="how__img"><img src=" img/how/1.png" alt=""></div>
+                            <div class="how__mainname">Step 1</div>
+                            <div class="how__subtext">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                ind ustry. Lorem Ipsum has been
+                            </div>
+                        </div>
+                        <div class="how__column">
+                            <div class="how__img"><img src="img/how/2.png" alt=""></div>
+                            <div class="how__mainname">Step 2
+                            </div>
+                            <div class="how__subtext">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                ind ustry. Lorem Ipsum has been
+                            </div>
+                        </div>
+                        <div class="how__column">
+                            <div class="how__img"><img src="img/how/3.png" alt=""></div>
+                            <div class="how__mainname">Step 3</div>
+                            <div class="how__subtext">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                ind ustry. Lorem Ipsum has been</div>
+                        </div>
+                        <div class="how__column">
+                            <div class="how__img"><img src="img/how/4.png" alt=""></div>
+                            <div class="how__mainname">Step 4</div>
+                            <div class="how__subtext">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                ind ustry. Lorem Ipsum has been</div>
+                        </div>
+                    </div>
+                    <div class="how__button"><a href="#" class="price__button">Get start Now</a></div>
+                </div>
+            </section>
+            <section class="clients">
+                <div class="container clients__container">
+                    <div class="clients__head">
+                        <div class="clients__title title">Happy Clients</div>
+                        <div class="clients__subtitle subtitle">We are explain who is using our business solutions</div>
+                    </div>
+                    <div class="clients__row">
+                        <div class="clients__column">
+                            <div class="clients__img"><img src="img/clients/1.png" alt="client 1"></div>
+                            <div class="clients__main">
+                                <div class="clients__text">"Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the industrystandard dummy text ever
+                                    since the 1500s, wen an unknown printer took a galley of type and scrambled
+                                    to make a type specimen book.
+                                    , but also the leap into electronic typesetting, remaining essentially unchanged."
+                                </div>
+                                <div class="clients__name">Darwin Michle,<span>Project manager</span></div>
+                            </div>
+                        </div>
+                        <div class="clients__column">
+                            <div class="clients__img"><img src="img/clients/2.png" alt="client 2"></div>
+                            <div class="clients__main">
+                                <div class="clients__text">"Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the industrystandard dummy text ever
+                                    since the 1500s, wen an unknown printer took a galley of type and scrambled
+                                    to make a type specimen book.
+                                    , but also the leap into electronic typesetting, remaining essentially unchanged."
+                                </div>
+                                <div class="clients__name">Madam Elisabath, <span>Creative Director</span></div>
+                            </div>
+                        </div>
+                        <div class="clients__column">
+                            <div class="clients__img"><img src="img/clients/3.png" alt="client 3"></div>
+                            <div class="clients__main">
+                                <div class="clients__text">"Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the industrystandard dummy text ever
+                                    since the 1500s, wen an unknown printer took a galley of type and scrambled
+                                    to make a type specimen book.
+                                    , but also the leap into electronic typesetting, remaining essentially unchanged."
+                                </div>
+                                <div class="clients__name">Clips arter, <span>Lipsum directer</span></div>
+                            </div>
+                        </div>
+                        <div class="clients__column">
+                            <div class="clients__img"><img src="img/clients/4.png" alt="client 4"></div>
+                            <div class="clients__main">
+                                <div class="clients__text">"Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the industrystandard dummy text ever
+                                    since the 1500s, wen an unknown printer took a galley of type and scrambled
+                                    to make a type specimen book.
+                                    , but also the leap into electronic typesetting, remaining essentially unchanged."
+                                </div>
+                                <div class="clients__name">zam cristafr, <span>manager</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="newsletter">
+                <div class="newsletter__container container">
+                    <div class="newsletter__head">
+                        <div class="newsletter__title title">newsletter</div>
+                        <div class="newsletter__subtitle subtitle">Lorem Ipsum is simply dummy Business industry</div>
+                        <form action="#" enctype="multipart/form-data" class="newsletter__form">
+                            <input type="text" placeholder="Name" class="newsletter__name">
+                            <input type="email" placeholder="Email Address" class="newsletter__email">
+                            <button type="submit" class="newsletter__button">Subscribe now</button>
+                        </form>
+                    </div>
+                    <div class="newsletter__main">
+                        <div class="newsletter__round">
+                            <img class="newsletter__ibg" src="/img/newsletter/shape_4_751.png" alt="">
+                            <div class="newsletter__round-title">Address</div>
+                            <div class="newsletter__text">Business street</div>
+                            <div class="newsletter__text">
+                                Second north section</div>
+                            <div class="newsletter__text">Bavani nagar. 88769</div>
+                            <div class="newsletter__text">Call : +987-9976-999</div>
+                            <div class="newsletter__mail-active">info@businessface.com</div>
+                        </div>
+                        <div class="newsletter__logo"><img src="img/logoheader.png" alt="logo"></div>
+                        <div class="ibg"><img class="ibg" src="img/layer_13_744.png" alt="background image"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__nav">
+                <a href="#" class="footer__pagelink">Home</a>
+                <a href="#" class="footer__pagelink">Service</a>
+                <a href="#" class="footer__pagelink">About us</a>
+                <a href="#" class="footer__pagelink">Pricing Table</a>
+                <a href="#" class="footer__pagelink">How it work</a>
+                <a href="#" class="footer__pagelink">Happy Clients</a>
+                <a href="#" class="footer__pagelink">Contact Us</a>
+            </div>
+            <div class="footer__phonenumber">+987 9976 999</div>
+            <div class="footer__outerlinks">
+                <a href="#" class="footer__outerlink"><img src="/img/newsletter/twitter.png" alt="Twitter link"></a>
+                <a href="#" class="footer__outerlink"><img src="/img/newsletter/facebook.png" alt="Facebook link"></a>
+                <a href="#" class="footer__outerlink"><img src="/img/newsletter/g+.png" alt="Google plus link"></a>
+                <a href="#" class="footer__outerlink"><img src="/img/newsletter/linkedin.png" alt="LinkedIn link"></a>
+            </div>
+        </div>
+        <div class="footer__copyright">All contents © copyright 2014 Business Theme. All rights reserved</div>
+    </footer>
 </body>
 
 </html>
