@@ -961,6 +961,15 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   gap: 30px;
 }
+@media (max-width: 550px) {
+  .footer__nav {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 .footer__pagelink {
   font-family: Lato;
   font-size: 13px;
@@ -1009,4 +1018,5 @@ h1, h2, h3, h4, h5, h6 {
           justify-content: center;
   margin-top: 50px;
   padding: 10px 0;
+  text-align: center;
 }

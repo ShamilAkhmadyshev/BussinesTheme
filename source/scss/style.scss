@@ -850,6 +850,10 @@
     &__nav {
         display: flex;
         gap: 30px;
+        @media (max-width: 550px) {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
     }
 
     &__pagelink {
@@ -898,5 +902,6 @@
         justify-content: center;
         margin-top: 50px;
         padding: 10px 0;
+        text-align: center;
     }
 }
