@@ -243,13 +243,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 .home__name {
-  background: url(/img/home1.png) 7% 50% no-repeat #ffffff;
+  background: url(img/home1.png) 7% 50% no-repeat #ffffff;
 }
 .home__email {
-  background: url(/img/home2.png) 7% 50% no-repeat #ffffff;
+  background: url(img/home2.png) 7% 50% no-repeat #ffffff;
 }
 .home__phone {
-  background: url(/img/home3.png) 7% 50% no-repeat #ffffff;
+  background: url(img/home3.png) 7% 50% no-repeat #ffffff;
 }
 .home__button {
   color: #ffffff;
@@ -669,13 +669,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 1100px) {
   .how__column:nth-child(odd)::after {
-    content: url(/img/how/layers.png);
+    content: url(img/how/layers.png);
     position: absolute;
     top: -30px;
     left: 210px;
   }
   .how__column:nth-child(2)::after {
-    content: url(/img/how/layers2.png);
+    content: url(img/how/layers2.png);
     position: absolute;
     bottom: 220px;
     left: 210px;
@@ -831,7 +831,7 @@ h1, h2, h3, h4, h5, h6 {
           flex: 2;
   padding-left: 40px;
   position: relative;
-  background: url(/img/newsletter/user.png) 5% 50% no-repeat #ffffff;
+  background: url(img/newsletter/user.png) 5% 50% no-repeat #ffffff;
 }
 .newsletter__email {
   border: 1px solid #cbcbcb;
@@ -840,7 +840,7 @@ h1, h2, h3, h4, h5, h6 {
       -ms-flex: 2;
           flex: 2;
   padding-left: 40px;
-  background: url(/img/newsletter/mail.png) 5% 50% no-repeat #ffffff;
+  background: url(img/newsletter/mail.png) 5% 50% no-repeat #ffffff;
 }
 .newsletter__button {
   color: #ffffff;
@@ -978,7 +978,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 .footer__phonenumber::before {
-  content: url(/img/newsletter/phone.png);
+  content: url(img/newsletter/phone.png);
   position: absolute;
   left: -24px;
   top: 2px;
