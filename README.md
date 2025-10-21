@@ -13,4 +13,7 @@ The project includes multiple sections such as “Home”, “About”, and “S
 - CSS3  
 
 ## 🚀 How to Run
-Simply open the file:
+Simply open the file index.html in your browser.
+
+## 💡 About
+This is a small front-end project created to practice layout building and responsive design.
